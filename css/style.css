@@ -21,14 +21,14 @@ body {
     line-height: 1.6;
     color: #f5f5f5;
 
-    /* fond du site */
+    /* background du site */
     background-image: url('../ImagesHT/backgrdsite.webp');
     background-size: cover;       
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;  
 }
-
+    /* background du header */
 header {
     background-image: url('../ImagesHT/backgroundht.avif');
     background-size: cover;
@@ -221,7 +221,7 @@ button:hover {
 
 /*Responsive*/
 
-/* >= 768px : tablette */
+/* >= 768px : téléphone */
 @media (min-width: 768px) {
     .hero {
         flex-direction: row;
@@ -237,7 +237,7 @@ button:hover {
     }
 }
 
-/* >= 1024px : desktop */
+/* >= 1024px : tablette */
 @media (min-width: 1024px) {
     .nav-links {
         justify-content: flex-start;
